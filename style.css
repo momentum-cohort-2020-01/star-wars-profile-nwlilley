@@ -1,2 +1,50 @@
-console.log('css linked')
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.container {
+  background-color:rgb(253, 99, 215);
+  width: 500px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 6px 2px rgba(0, 0, 255, 0.623);
+  
+}
+.name-heading {
+  font-size: 40px;
+  text-align: center;
+  margin: 40px;
+  text-transform: uppercase;
+  
+
+}
+
+.profile-photo {
+  display: block;
+  margin: 30px auto;
+  border-radius: 50%;
+  border: 7px solid white;
+  /* box-shadow: 0 0 1px rgb(102, 99, 99); */
+  width: 60%;
+
+  
+
+}
+
+.key {
+  
+}
+
+.detail {
+  margin-bottom: 10px;
+}
 
